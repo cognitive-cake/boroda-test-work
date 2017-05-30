@@ -366,3 +366,8 @@ textarea {
 
 * {
   background-color: azure; }
+
+.test {
+  display: -webkit-box;
+  -js-display: flex;
+  display: flex; }

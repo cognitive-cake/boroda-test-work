@@ -364,10 +364,51 @@ textarea {
   font: inherit;
   /* 2 */ }
 
-* {
-  background-color: azure; }
+body {
+  width: 87%;
+  min-width: 320px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 22px; }
 
-.test {
+img {
+  max-width: 100%;
+  height: auto; }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0; }
+
+.page-header {
   display: -webkit-box;
   -js-display: flex;
-  display: flex; }
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 320px;
+  margin-bottom: 30px;
+  padding-left: 4px;
+  padding-right: 4px;
+  background-color: #777777; }
+
+.page-header__select {
+  width: 190px;
+  height: 30px;
+  margin: 10px;
+  border-radius: 5px; }
+
+.slider {
+  display: -webkit-box;
+  -js-display: flex;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  height: 148px;
+  background-color: #dcdcdc; }
+
+.slider h2 {
+  color: #777777; }

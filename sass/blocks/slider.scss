@@ -1,0 +1,13 @@
+.slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  height: 148px;
+  
+  background-color: $boroda-lightgrey;
+}
+
+.slider h2 {
+  color: $boroda-darkgrey;
+}

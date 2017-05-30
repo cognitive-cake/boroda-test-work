@@ -1,0 +1,24 @@
+.page-header {
+  display: flex;
+  flex-wrap: wrap;
+  
+  box-sizing: border-box;
+  
+  width: 100%;
+  min-width: 320px;
+  
+  margin-bottom: 30px;
+  padding-left: 4px;
+  padding-right: 4px;
+  
+  background-color: $boroda-darkgrey;
+}
+
+.page-header__select {
+  width: 190px;
+  height: 30px;
+  
+  margin: 10px;
+  
+  border-radius: 5px;
+}

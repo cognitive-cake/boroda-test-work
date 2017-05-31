@@ -6,17 +6,17 @@
   padding-right: 32px;
   
   background-color: $boroda-darkgrey;
-}
-
-.navigation ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.navigation a {
-  text-decoration: none;
-  color: white;
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
 }
 
 .navigation__current-section {

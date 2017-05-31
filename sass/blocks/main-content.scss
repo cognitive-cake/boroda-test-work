@@ -7,16 +7,17 @@
   padding: 22px;
   
   background-color: $boroda-lightgrey;
-}
-
-.main-content__header ul {
-  list-style: square;
+  
+  ul {
+    list-style: square;
+  }
 }
 
 .main-content__items {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  margin-left: -10px;
+  margin-right: -10px;
 }
 
 .main-content__add-item {
@@ -24,10 +25,23 @@
   height: 153px;
   
   margin-bottom: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
   
   background-color: $boroda-lightgrey;
 }
 
 .main-content__text-column {
+  margin-bottom: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 18px;
+  padding-right: 18px;
+  
   background-color: $boroda-lightgrey;
+  
+  p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 }

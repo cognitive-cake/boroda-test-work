@@ -367,6 +367,7 @@ textarea {
 body {
   width: 87%;
   min-width: 320px;
+  max-width: 960px;
   margin: 0 auto;
   font-family: Arial, sans-serif;
   font-size: 14px;
@@ -379,6 +380,26 @@ img {
 h1, h2, h3, h4, h5, h6, p {
   margin: 0;
   padding: 0; }
+
+.navigation {
+  margin-bottom: 20px;
+  padding-top: 19px;
+  padding-bottom: 17px;
+  padding-left: 13px;
+  padding-right: 32px;
+  background-color: #777777; }
+
+.navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.navigation a {
+  text-decoration: none;
+  color: white; }
+
+.navigation__current-section {
+  font-weight: bold; }
 
 .page-header {
   display: -webkit-box;
@@ -399,6 +420,13 @@ h1, h2, h3, h4, h5, h6, p {
   margin: 10px;
   border-radius: 5px; }
 
+.sidebar {
+  color: white; }
+
+.sidebar__bottom {
+  height: 134px;
+  background-color: #777777; }
+
 .slider {
   display: -webkit-box;
   -js-display: flex;
@@ -408,6 +436,7 @@ h1, h2, h3, h4, h5, h6, p {
   -webkit-box-align: center;
           align-items: center;
   height: 148px;
+  margin-bottom: 30px;
   background-color: #dcdcdc; }
 
 .slider h2 {

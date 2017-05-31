@@ -1,0 +1,24 @@
+.navigation {
+  margin-bottom: 20px;
+  padding-top: 19px;
+  padding-bottom: 17px;
+  padding-left: 13px;
+  padding-right: 32px;
+  
+  background-color: $boroda-darkgrey;
+}
+
+.navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: white;
+}
+
+.navigation__current-section {
+  font-weight: bold;
+}

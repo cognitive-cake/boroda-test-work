@@ -19,8 +19,7 @@
   },
   "scripts": {
     "build": "gulp build",
-    "start": "gulp serve",
-    "deploy": "gulp deploy"
+    "start": "gulp serve"
   },
   "engines": {
     "node": "6.7"

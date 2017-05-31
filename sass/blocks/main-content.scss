@@ -1,3 +1,33 @@
 .main-content {
+  color: $boroda-darkgrey;
+}
+
+.main-content__header {
+  margin-bottom: 20px;
+  padding: 22px;
   
+  background-color: $boroda-lightgrey;
+}
+
+.main-content__header ul {
+  list-style: square;
+}
+
+.main-content__items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.main-content__add-item {
+  width: 136px;
+  height: 153px;
+  
+  margin-bottom: 20px;
+  
+  background-color: $boroda-lightgrey;
+}
+
+.main-content__text-column {
+  background-color: $boroda-lightgrey;
 }

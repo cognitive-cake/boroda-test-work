@@ -489,7 +489,7 @@ h1, h2, h3, h4, h5, h6, p {
   height: 75px;
   background-color: #777777; }
   .page-footer__element:first-child {
-    margin-bottom: 28px; }
+    margin-bottom: 30px; }
 
 .page-header {
   display: -webkit-box;
@@ -508,6 +508,8 @@ h1, h2, h3, h4, h5, h6, p {
   width: 190px;
   height: 30px;
   margin: 10px;
+  padding-left: 12px;
+  padding-right: 11px;
   border-radius: 5px;
   background-color: white; }
 
@@ -539,3 +541,39 @@ h1, h2, h3, h4, h5, h6, p {
   background-color: #dcdcdc; }
   .slider h2 {
     color: #777777; }
+  @media (min-width: 900px) {
+  .page-footer {
+    display: -webkit-box;
+    -js-display: flex;
+    display: flex;
+    flex-wrap: wrap; }
+  .page-footer__col--first-col {
+    width: 297px;
+    margin-left: auto;
+    margin-right: auto; }
+  .page-footer__col--second-col {
+    width: 297px;
+    margin-left: auto;
+    margin-right: auto; }
+  .page-footer__col--third-col {
+    width: 100%; }
+  .page-footer__element {
+    width: 308px;
+    margin-left: auto;
+    margin-right: auto; }
+  .page-main__content-wrapper {
+    display: -webkit-box;
+    -js-display: flex;
+    display: flex; }
+  .sidebar {
+    display: -webkit-box;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+            justify-content: space-between;
+    min-width: 184px;
+    margin-right: 20px;
+    margin-bottom: 20px; } }

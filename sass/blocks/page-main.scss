@@ -5,3 +5,11 @@
 .page-main__content-wrapper {
   
 }
+
+
+@media ($tablet-landscape-widths) {
+  .page-main__content-wrapper {
+    display: flex;
+    
+  }  
+}

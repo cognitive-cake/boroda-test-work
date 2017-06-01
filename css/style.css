@@ -440,6 +440,8 @@ h1, h2, h3, h4, h5, h6, p {
   .navigation a {
     text-decoration: none;
     color: white; }
+    .navigation a:hover {
+      text-decoration: underline; }
 
 .navigation__current-section {
   font-weight: bold; }
@@ -479,6 +481,16 @@ h1, h2, h3, h4, h5, h6, p {
   .page-footer__second-list a {
     margin-left: -15px; }
 
+.page-footer__col--bg-white {
+  padding: 0;
+  background-color: white; }
+
+.page-footer__element {
+  height: 75px;
+  background-color: #777777; }
+  .page-footer__element:first-child {
+    margin-bottom: 28px; }
+
 .page-header {
   display: -webkit-box;
   -js-display: flex;
@@ -496,7 +508,8 @@ h1, h2, h3, h4, h5, h6, p {
   width: 190px;
   height: 30px;
   margin: 10px;
-  border-radius: 5px; }
+  border-radius: 5px;
+  background-color: white; }
 
 .separate-line {
   display: inline-block;

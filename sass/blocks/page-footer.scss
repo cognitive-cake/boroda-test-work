@@ -48,6 +48,16 @@
   }
 }
 
+.page-footer__col--bg-white {
+  padding: 0;
+  background-color: white;
+}
+
 .page-footer__element {
+  height: 75px;
+  background-color: $boroda-darkgrey;
   
+  &:first-child {
+    margin-bottom: 28px;
+  }
 }

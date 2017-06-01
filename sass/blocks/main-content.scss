@@ -52,3 +52,16 @@
     
   }
 }
+
+@media ($desktop-widths) {
+  .main-content__text-wrapper {
+    display: flex;
+  }
+  
+  .main-content__text-column {
+    flex-basis: 50%;
+    &:first-child {
+      margin-right: 17px;
+    }
+  }
+}

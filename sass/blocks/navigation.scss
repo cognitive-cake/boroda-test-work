@@ -26,3 +26,11 @@
 .navigation__current-section {
   font-weight: bold;
 }
+
+
+@media ($tablet-landscape-widths) {
+  .navigation {
+    top: 60px;
+    margin-bottom: 154px;
+  }
+}

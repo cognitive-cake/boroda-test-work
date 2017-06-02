@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-  <header class="page-header">
+  <header class="page-header sticky">
     <select class="page-header__select" name="select-1" id="select-1">
       <option value="option-1">Выпадающий список</option>
       <option value="option-2">option-2</option>
@@ -31,7 +31,7 @@
     </article>
     <div class="page-main__content-wrapper">
       <aside class="sidebar">
-        <nav class="navigation">
+        <nav class="navigation sticky">
           <ul>
             <li class="navigation__current-section"><a href="#">Создание сайтов</a></li>
             <li><a href="#">Изготовление сайтов «под ключ»</a></li>
@@ -99,7 +99,7 @@
     </div>
   </main>
   <div class="separate-line"></div>
-  <footer class="page-footer">
+  <footer class="page-footer sticky-footer">
     <div class="page-footer__col  page-footer__col--first-col">
       <ul class="page-footer__first-list">
         <li><a href="#">Пункт 01</a></li>
@@ -129,7 +129,7 @@
         <li><a href="#">Тариф «Регион»</a></li>
       </ul>
     </div>
-    <div class="page-footer__col  page-footer__col--bg-white  page-footer__col--third-col">
+    <div class="page-footer__col  page-footer__col--third-col">
       <div class="page-footer__element"></div>
       <div class="page-footer__element"></div>
     </div>
@@ -140,5 +140,7 @@
     </article>
   </template>
   <script src="js/flexibility.js"></script>
+  <script src="js/stickyfill.js"></script>
+  <script src="js/sticky.js"></script>
 </body>
 </html>

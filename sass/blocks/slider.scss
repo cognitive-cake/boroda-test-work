@@ -1,14 +1,100 @@
 .slider {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: relative;
   
   height: 148px;
   margin-bottom: 30px;
   
   background-color: $boroda-lightgrey;
   
+  input {
+    display: none;
+  }
+  
   h2 {
     color: $boroda-darkgrey;
   }
 }
+
+
+.slider__frame {
+  width: 100%;
+  height: inherit;
+}
+
+.slider__slide-1,
+.slider__slide-2,
+.slider__slide-3 {
+  position: absolute;
+  
+  width: inherit;
+  height: inherit;
+  
+  opacity: 0;
+  z-index: 0;
+  
+  transition: opacity ease-in-out .5s;
+}
+
+.slider__slide-1 {
+  background-color: #e89292;
+}
+
+.slider__slide-2 {
+  background-color: #92b3e8;
+}
+
+.slider__slide-3 {
+  background-color: #97e892;
+}
+
+
+.slider__controls {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  
+  label {
+    position: relative;
+	  display: inline-block;
+    
+    width: 8px;
+	  height: 8px;
+    
+    margin-left: 10px;
+	  margin-right: 10px;
+    border-radius: 50%;
+    
+	  cursor: pointer;
+    transition: background ease-in-out .5s;
+    
+    &::after {
+      position: absolute;
+      top: -4px;
+      left: -4px;
+      
+      display: block;
+      content: " ";
+      
+      width: 12px;
+      height: 12px;
+      border: 2px solid $boroda-darkgrey;
+      border-radius: 50%;
+    }
+  }
+}
+
+#slide-1:checked ~ .slider__controls label:nth-child(1),
+#slide-2:checked ~ .slider__controls label:nth-child(2),
+#slide-3:checked ~ .slider__controls label:nth-child(3) {
+  background-color: $boroda-darkgrey;
+}
+
+#slide-1:checked ~ .slider__frame .slider__slide-1,
+#slide-2:checked ~ .slider__frame .slider__slide-2,
+#slide-3:checked ~ .slider__frame .slider__slide-3 {
+  opacity: 1;
+  z-index: 1;
+}
+

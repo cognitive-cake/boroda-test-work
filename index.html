@@ -27,7 +27,19 @@
   </header>
   <main class="page-main">
     <article class="slider">
-      <h2>Слайдер</h2>
+      <input type="radio" name="slider-switch" id="slide-1" checked>
+      <input type="radio" name="slider-switch" id="slide-2">
+      <input type="radio" name="slider-switch" id="slide-3">
+      <div class="slider__frame">
+        <div class="slider__slide-1"><h2>Слайдер 1</h2></div>
+		    <div class="slider__slide-2"><h2>Слайдер 2</h2></div>
+		    <div class="slider__slide-3"><h2>Слайдер 3</h2></div>
+      </div>
+      <div class="slider__controls">
+        <label for="slide-1"></label>
+        <label for="slide-2"></label>
+        <label for="slide-3"></label>
+      </div>
     </article>
     <div class="page-main__content-wrapper">
       <aside class="sidebar">

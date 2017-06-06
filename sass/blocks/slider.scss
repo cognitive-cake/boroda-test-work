@@ -19,12 +19,19 @@
 .slider__frame {
   width: 100%;
   height: inherit;
+  
+  h2 {
+    margin: auto;
+    text-align: center;
+  }
 }
 
 .slider__slide-1,
 .slider__slide-2,
 .slider__slide-3 {
   position: absolute;
+  
+  display: flex;
   
   width: inherit;
   height: inherit;

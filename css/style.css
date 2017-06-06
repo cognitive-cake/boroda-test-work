@@ -544,11 +544,17 @@ h1, h2, h3, h4, h5, h6, p {
 .slider__frame {
   width: 100%;
   height: inherit; }
+  .slider__frame h2 {
+    margin: auto;
+    text-align: center; }
 
 .slider__slide-1,
 .slider__slide-2,
 .slider__slide-3 {
   position: absolute;
+  display: -webkit-box;
+  -js-display: flex;
+  display: flex;
   width: inherit;
   height: inherit;
   opacity: 0;

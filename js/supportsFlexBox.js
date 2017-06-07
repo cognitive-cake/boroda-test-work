@@ -4,10 +4,10 @@ window.supportsFlexBox = function () {
     test.style.display = 'flex';
 
     return test.style.display === 'flex';
-  }
+}
 
-  if (supportsFlexBox()) {
+if (supportsFlexBox()) {
     // Modern Flexbox is supported
-  } else {
+} else {
     flexibility(document.documentElement);
-  }
+}

@@ -29,6 +29,8 @@
   background-color: $boroda-darkgrey;
   transition: box-shadow 0.2s;
   
+  z-index: 20;
+  
   &:hover {
     box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
   }
@@ -37,6 +39,8 @@
 .page-footer__col--second-col {
   background-color: $boroda-darkgrey;
   transition: box-shadow 0.2s;
+  
+  z-index: 20;
   
   &:hover {
     box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
@@ -71,6 +75,8 @@
   padding: 10px;
   background-color: $boroda-darkgrey;
   transition: box-shadow 0.2s;
+  
+  z-index: 20;
   
   &:hover {
     box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);

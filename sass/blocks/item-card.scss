@@ -10,8 +10,12 @@
   
   background-color: $boroda-lightgrey;
   
-  &:hover path {
+  &:hover .item-card__icon path {
     fill: #ff2121;
+  }
+  
+  &:hover .button-circle {
+    opacity: 1;
   }
 }
 
@@ -22,4 +26,8 @@
   
   width: 20px;
   height: 20px;
+}
+
+.item-card__edit {
+  
 }

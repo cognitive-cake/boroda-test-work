@@ -3,6 +3,8 @@
 }
 
 .main-content__header {
+  position: relative;
+  
   margin-bottom: 20px;
   padding: 22px;
   
@@ -10,6 +12,10 @@
   
   ul {
     list-style: square;
+  }
+  
+  &:hover .button-circle {
+    opacity: 1;
   }
 }
 
@@ -62,6 +68,8 @@
 }
 
 .main-content__text-column {
+  position: relative;
+  
   margin-bottom: 20px;
   padding-top: 12px;
   padding-bottom: 12px;
@@ -73,6 +81,10 @@
   p {
     margin-top: 10px;
     margin-bottom: 10px;
+  }
+  
+  &:hover .button-circle {
+    opacity: 1;
   }
 }
 

@@ -3,12 +3,18 @@
 }
 
 .sidebar__bottom {
+  position: relative;
+  
   height: 134px;
   background-color: $boroda-darkgrey;
   transition: box-shadow 0.2s;
   
   &:hover {
     box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+  }
+  
+  &:hover .button-circle {
+    opacity: 1;
   }
 }
 

@@ -27,10 +27,20 @@
 
 .page-footer__col--first-col {
   background-color: $boroda-darkgrey;
+  transition: box-shadow 0.2s;
+  
+  &:hover {
+    box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+  }
 }
 
 .page-footer__col--second-col {
   background-color: $boroda-darkgrey;
+  transition: box-shadow 0.2s;
+  
+  &:hover {
+    box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+  }
 }
 
 .page-footer__col--third-col {
@@ -60,6 +70,11 @@
   height: 75px;
   padding: 10px;
   background-color: $boroda-darkgrey;
+  transition: box-shadow 0.2s;
+  
+  &:hover {
+    box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+  }
   
   &:first-child {
     margin-bottom: 30px;
@@ -75,7 +90,6 @@
   
   .page-footer__col--first-col {
     width: 30%;
-    margin-left: auto;
     margin-right: auto;
   }
   
@@ -88,7 +102,6 @@
   .page-footer__col--third-col {
     width: 30%;
     margin-left: auto;
-    margin-right: auto;
   }
   
   .page-footer__element {

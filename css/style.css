@@ -390,7 +390,7 @@ h1, h2, h3, h4, h5, h6, p {
   margin-left: 10px;
   background-color: #dcdcdc; }
   .item-card:hover path {
-    fill: #273791; }
+    fill: #ff2121; }
 
 .item-card__icon {
   position: absolute;
@@ -442,7 +442,10 @@ h1, h2, h3, h4, h5, h6, p {
   padding-bottom: 17px;
   padding-left: 13px;
   padding-right: 32px;
-  background-color: #777777; }
+  background-color: #777777;
+  transition: box-shadow 0.2s; }
+  .navigation:hover {
+    box-shadow: 6px 6px 5px 0px rgba(0, 0, 0, 0.75); }
   .navigation ul {
     margin: 0;
     padding: 0;
@@ -475,10 +478,16 @@ h1, h2, h3, h4, h5, h6, p {
   color: white; }
 
 .page-footer__col--first-col {
-  background-color: #777777; }
+  background-color: #777777;
+  transition: box-shadow 0.2s; }
+  .page-footer__col--first-col:hover {
+    box-shadow: 6px 6px 5px 0px rgba(0, 0, 0, 0.75); }
 
 .page-footer__col--second-col {
-  background-color: #777777; }
+  background-color: #777777;
+  transition: box-shadow 0.2s; }
+  .page-footer__col--second-col:hover {
+    box-shadow: 6px 6px 5px 0px rgba(0, 0, 0, 0.75); }
 
 .page-footer__col--third-col {
   padding: 0; }
@@ -500,7 +509,10 @@ h1, h2, h3, h4, h5, h6, p {
 .page-footer__element {
   height: 75px;
   padding: 10px;
-  background-color: #777777; }
+  background-color: #777777;
+  transition: box-shadow 0.2s; }
+  .page-footer__element:hover {
+    box-shadow: 6px 6px 5px 0px rgba(0, 0, 0, 0.75); }
   .page-footer__element:first-child {
     margin-bottom: 30px; }
 
@@ -540,7 +552,10 @@ h1, h2, h3, h4, h5, h6, p {
 
 .sidebar__bottom {
   height: 134px;
-  background-color: #777777; }
+  background-color: #777777;
+  transition: box-shadow 0.2s; }
+  .sidebar__bottom:hover {
+    box-shadow: 6px 6px 5px 0px rgba(0, 0, 0, 0.75); }
 
 .slider {
   position: relative;
@@ -640,7 +655,6 @@ h1, h2, h3, h4, h5, h6, p {
     flex-wrap: wrap; }
   .page-footer__col--first-col {
     width: 30%;
-    margin-left: auto;
     margin-right: auto; }
   .page-footer__col--second-col {
     width: 30%;
@@ -648,8 +662,7 @@ h1, h2, h3, h4, h5, h6, p {
     margin-right: auto; }
   .page-footer__col--third-col {
     width: 30%;
-    margin-left: auto;
-    margin-right: auto; }
+    margin-left: auto; }
   .page-main__content-wrapper {
     display: -webkit-box;
     -js-display: flex;

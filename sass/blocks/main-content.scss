@@ -21,6 +21,8 @@
 }
 
 .main-content__add-item {
+  position: relative;
+  
   width: 136px;
   height: 153px;
   
@@ -29,6 +31,34 @@
   margin-left: 10px;
   
   background-color: $boroda-lightgrey;
+  
+  &::before {
+    content: " ";
+    
+    position: absolute;
+    
+    width: 48px;
+    height: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    background-color: $boroda-darkgrey;
+  }
+  
+  &::after {
+    content: " ";
+    
+    position: absolute;
+    
+    width: 10px;
+    height: 48px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    background-color: $boroda-darkgrey;
+  }
 }
 
 .main-content__text-column {

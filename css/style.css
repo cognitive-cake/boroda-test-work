@@ -729,10 +729,16 @@ h1, h2, h3, h4, h5, h6, p {
     position: -webkit-sticky;
     position: sticky;
     top: 0; }
+    .sticky::before, .sticky::after {
+      content: "";
+      display: table; }
   .sticky-footer {
     position: -webkit-sticky;
     position: sticky;
     bottom: 0; }
+    .sticky-footer::before, .sticky-footer::after {
+      content: "";
+      display: table; }
   .navigation {
     top: 60px;
     margin-bottom: 154px; }

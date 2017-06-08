@@ -441,6 +441,7 @@ h1, h2, h3, h4, h5, h6, p {
   display: block; }
 
 .main-content {
+  flex-basis: 100%;
   color: #777777; }
 
 .main-content__header {

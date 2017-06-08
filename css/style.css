@@ -382,10 +382,6 @@ h1, h2, h3, h4, h5, h6, p {
   padding: 0; }
 
 .button-circle {
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
-  display: block;
   width: 35px;
   height: 35px;
   box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
@@ -394,11 +390,12 @@ h1, h2, h3, h4, h5, h6, p {
   border-radius: 50%;
   box-sizing: border-box;
   transition: box-shadow 0.2s, border 0.2s, opacity 0.5s;
+  background-color: #dcdcdc;
   opacity: 0; }
   .button-circle svg {
     position: absolute;
     top: 50%;
-    left: 52%;
+    left: 50%;
     width: 20px;
     height: 20px;
     -webkit-transform: translate(-50%, -50%);
@@ -430,6 +427,18 @@ h1, h2, h3, h4, h5, h6, p {
   right: 16px;
   width: 20px;
   height: 20px; }
+
+.item-card__edit {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  display: block; }
+
+.item-card__remove {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  display: block; }
 
 .main-content {
   color: #777777; }
@@ -496,6 +505,12 @@ h1, h2, h3, h4, h5, h6, p {
     margin-bottom: 10px; }
   .main-content__text-column:hover .button-circle {
     opacity: 1; }
+
+.main-content__edit {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  display: block; }
 
 .navigation {
   margin-bottom: 20px;
@@ -623,6 +638,12 @@ h1, h2, h3, h4, h5, h6, p {
     box-shadow: 6px 6px 5px 0px rgba(0, 0, 0, 0.75); }
   .sidebar__bottom:hover .button-circle {
     opacity: 1; }
+
+.sidebar__edit {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  display: block; }
 
 .slider {
   position: relative;

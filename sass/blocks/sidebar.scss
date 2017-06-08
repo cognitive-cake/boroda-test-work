@@ -18,6 +18,14 @@
   }
 }
 
+.sidebar__edit {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  
+  display: block;
+}
+
 @media ($tablet-landscape-widths) {
   .sidebar {
     display: flex;

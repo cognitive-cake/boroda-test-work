@@ -81,6 +81,16 @@ gulp.task("icon-sprite", function () {
     .pipe(gulp.dest("img"));
 });
 
+gulp.task('pretty', function () {
+    return gulp.src("img/*.svg")
+        .pipe(svgmin({
+            js2svg: {
+                pretty: true
+            }
+        }))
+        .pipe(gulp.dest("img"))
+});
+
 gulp.task("serve", function () {
   server.init({
     server: ".",

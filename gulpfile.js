@@ -76,13 +76,9 @@ gulp.task("images", function () {
 });
 
 gulp.task("icon-sprite", function () {
-  return gulp.src("build/img/**/icon-*.svg")
+  return gulp.src("img/*.svg")
     .pipe(svgmin())
-    .pipe(svgstore({
-      inlineSvg: true
-    }))
-    .pipe(rename("icons.svg"))
-    .pipe(gulp.dest("build/img"));
+    .pipe(gulp.dest("img"));
 });
 
 gulp.task("serve", function () {
